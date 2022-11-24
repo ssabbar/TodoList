@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditTask component renders correctly 1`] = `
+<div>
+    <div>
+        <p class="mb-2">Edit name for task1</p> <input class="mb-3">
+    </div>
+    <div class="row"><button id="cancelEditButton" class="btn btn-outline-secondary">Cancel</button> <button id="saveEditButton" class="btn btn-dark">Save</button></div>
+</div>
+`;

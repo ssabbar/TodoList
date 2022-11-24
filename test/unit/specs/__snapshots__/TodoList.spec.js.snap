@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList component renders correctly 1`] = `
+<div class="container">
+    <div class="row">
+        <div class="col-md-5 mx-auto">
+            <h1 class="text-center"> To-Do list</h1>
+            <div>
+                <div class="text-center mb-2"><label for="new-todo-input">What needs to be done ?</label></div>
+                <div class="mb-3"><input id="new-todo-input" class="form-control"></div>
+                <div><button id="addTaskbutton" class="btn btn-dark form-control">Add</button></div>
+            </div>
+            <div id="taskslist" class="col-md-10 offset-md-1 mt-2">
+                <h2 class="ml-auto mr-0 my-4">1 out of 1 items completed</h2>
+                <div>
+                    <div>
+                        <div class="mb-4">
+                            <div id="taskid1">
+                                <div class="mb-2"><input type="checkbox"> <label id="1" class="checkbox-label">test</label></div>
+                                <div class="row"><button type="button" id="editTaskButton" class="btn btn-outline-secondary">Edit</button> <button type="button" id="deleteTaskButton" class="btn btn-danger">Delete</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+`;

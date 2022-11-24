@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Task components renders correctly 1`] = `
+<div class="mb-4">
+    <div id="taskid1">
+        <div class="mb-2"><input type="checkbox"> <label id="1" class="checkbox-label">task1</label></div>
+        <div class="row"><button type="button" id="editTaskButton" class="btn btn-outline-secondary">Edit</button> <button type="button" id="deleteTaskButton" class="btn btn-danger">Delete</button></div>
+    </div>
+</div>
+`;
+
+exports[`Task components renders correctly 2`] = `
+<div class="mb-4">
+    <div>
+        <div>
+            <div>
+                <p class="mb-2">Edit name for task1</p> <input class="mb-3">
+            </div>
+            <div class="row"><button id="cancelEditButton" class="btn btn-outline-secondary">Cancel</button> <button id="saveEditButton" class="btn btn-dark">Save</button></div>
+        </div>
+    </div>
+</div>
+`;

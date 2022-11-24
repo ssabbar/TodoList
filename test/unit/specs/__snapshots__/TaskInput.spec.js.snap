@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Task input renders correctly 1`] = `
+<div>
+    <div class="text-center mb-2"><label for="new-todo-input">What needs to be done ?</label></div>
+    <div class="mb-3"><input id="new-todo-input" class="form-control"></div>
+    <div><button id="addTaskbutton" class="btn btn-dark form-control">Add</button></div>
+</div>
+`;
